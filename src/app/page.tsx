@@ -21,7 +21,6 @@ const LIMIT = 2; // max show 2
 
 export default async function Home() {
   const posts = await getPosts(blogDirectory, LIMIT);
-  <SpeedInsights/>
   return (
     <article className="mt-8 flex flex-col gap-16 pb-16">
       <section className="flex flex-col items-start gap-8 md:flex-row-reverse md:items-center md:justify-between">
@@ -56,6 +55,7 @@ export default async function Home() {
               </Button>
             </Link>
             <Socials />
+            <SpeedInsights/>
           </section>
         </div>
       </section>
