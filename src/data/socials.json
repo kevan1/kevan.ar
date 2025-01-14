@@ -1,0 +1,19 @@
+{
+  "socials": [
+    {
+      "name": "LinkedIn",
+      "href": "https://linkedin.com/in/kevinanrique",
+      "icon": "linkedin"
+    },
+    {
+      "name": "GitHub",
+      "href": "https://github.com/kevan1",
+      "icon": "github"
+    },
+    {
+      "name": "Email",
+      "href": "mailto:hey@kevan.ar",
+      "icon": "mail"
+    }
+  ]
+}

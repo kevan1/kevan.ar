@@ -1,0 +1,40 @@
+{
+  "education": [
+    {
+      "name": "Software Engineering",
+      "href": "https://42berlin.de/",
+      "title": "42 Berlin",
+      "logo": "/42.png",
+      "start": "Sep 2019",
+      "end": "Apr 2023",
+      "description": [
+        "Gained expertise in algorithms, computer science, C, and C++, within a peer-to-peer learning framework that encouraged collaborative work and advanced problem-solving techniques"
+      ],
+      "links": [
+        {
+          "name": "Final Year Project",
+          "href": "https://games.digipen.edu/games/rapid-ride-fight",
+          "icon": "globe"
+        },
+        {
+          "name": "2nd Year Project",
+          "href": "https://games.digipen.edu/games/glowing-under",
+          "icon": "globe"
+        }
+      ]
+    },
+    {
+      "name": "Computer Technician Specialized In Programming",
+      "href": "https://msthompson.edu.ar",
+      "title": "Escuela Técnica N°3 María Sánchez de Thompson",
+      "logo": "/etn3.jpeg",
+      "start": "Apr 2014",
+      "end": "May 2017",
+      "description": [
+        "Java - C ++ - Oracle DB - Visual Basic - Python - Object Oriented Programming",
+        "SQL Server - Linear Programming",
+        "Microsoft Server - Networking"
+      ]
+    }
+  ]
+}

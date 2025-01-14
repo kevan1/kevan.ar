@@ -1,0 +1,57 @@
+{
+  "career": [
+    {
+      "name": "Relocation - Freelance",
+      "href": "google.com",
+      "title": "Freelance Devops",
+      "logo": "/ger.png",
+      "start": "Jul 2023",
+      "description": [
+        "Developed the Java backend for a bank account servicing process with multiple channel integrations using Activiti workflow",
+        "Built a custom database migration tool using Python and MariaDB and facilitated the migration of 1000+ processes from a vendor platform"
+      ],
+      "links": [
+        {
+          "name": "NFTVue",
+          "href": "https://nftvue.vercel.app",
+          "icon": "globe"
+        }
+      ]
+    },
+    {
+      "name": "IRSA",
+      "href": "https://www.singaporetech.edu.sg",
+      "title": "IT Support 3rd",
+      "logo": "/irsa.jpg",
+      "start": "Aug 2021",
+      "end": "Jul 2023",
+      "description": [
+        "Troubleshooting hardware and software issues for users",
+        "Installation and configuration of IP Phone"
+      ]
+    },
+    {
+      "name": "Cresud",
+      "href": "https://www.dbs.com.sg",
+      "title": "Software Developer (Intern)",
+      "logo": "/cresud.jpg",
+      "start": "May 2022",
+      "end": "Dec 2022",
+      "description": [
+        "Worked on the backend for the digital exchange and asset custody application using Spring Boot and Java",
+        "Built an admin dashboard web application for a DBS Metaverse event using Spring Security and Angular"
+      ]
+    },
+    {
+      "name": "Ministry of Inovation of Buenos Aires City",
+      "href": "https://www.activate.sg",
+      "title": "DevOps Treenie",
+      "logo": "/bsas.jpg",
+      "start": "May 2019",
+      "end": "Aug 2019",
+      "description": [
+        "Developed RP Connect, the iOS and Android mobile app for Republic Polytechnic using React Native"
+      ]
+    }
+  ]
+}
