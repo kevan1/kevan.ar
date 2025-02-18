@@ -1,9 +1,9 @@
 {
   "projects": [
     {
-      "name": "Tradingview Telegram Alerts",
-      "description": "Real-time trading alerts with chart snapshots sent to Telegram, designed to keep traders informed and responsive to market changes",
-      "image": "/tv-tele-alerts.png",
+      "name": "MaskBid - 2024 NMKR's Berlin Hackathon",
+      "description": "This project was the winner of the Transparency category of 2024 NMKR's Berlin Hackathon. It consists of a commit-reveal system to make tender offers.",
+      "image": "/cardanhkt.jpg",
       "tags": [
         "Python",
         "FastAPI",
@@ -15,7 +15,7 @@
       "links": [
         {
           "name": "Source",
-          "href": "https://github.com/tedawf/tradingview-telegram-alerts",
+          "href": "https://github.com/kevan1/SRTK-Hackathon",
           "icon": "github"
         }
       ]
@@ -23,7 +23,7 @@
     {
       "name": "NFTVue",
       "description": "Non-Fungible Tokens (NFTs) Gallery Viewer website that allows users to connect their crypto wallets to view and verify their tokens",
-      "href": "https://nftvue.vercel.app",
+      "href": "https://github.com/kevan1/SRTK-Hackathon",
       "image": "/nftvue.png",
       "tags": [
         "NextJS",
@@ -46,7 +46,7 @@
       "name": "Portfolio 2023 (Outdated)",
       "description": "Simple markdown portfolio made with Astro 🚀",
       "href": "https://tedawf-dot-com.netlify.app",
-      "image": "/old-portfolio.png",
+      "image": "/",
       "tags": ["Astro", "TailwindCSS", "Netlify", "SEO"],
       "links": [
         {
