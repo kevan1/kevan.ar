@@ -26,20 +26,20 @@ export default async function Home() {
       <section className="flex flex-col items-start gap-8 md:flex-row-reverse md:items-center md:justify-between">
         <Image
           className="rounded-lg"
-          src="/kevan.jpg"
+          src="/kevin.jpg"
           alt="Photo of Kevin"
           width={175}
           height={175}
           priority
         />
-        <div className="flex flex-col">
-          <h1 className="title text-5xl">Kevin Anrique</h1>
-          <p className="mt-4 font-light">
+        <div className="flex max-w-[320px] flex-col sm:max-w-full">
+          <h1 className="title text-balance text-4xl sm:text-5xl">Kevin Anrique</h1>
+          <p className="mt-2 whitespace-nowrap text-sm font-medium sm:text-base">
             {/* Update my age */}
             {new Date().getFullYear() - KEVIN_BIRTH_YEAR}
-            -year-old devops and software developer from Argentina 🇦🇷
+            yo DevOps engineer from Argentina 🇦🇷
           </p>
-          <p className="mt-2 font-light">
+          <p className="mt-4 max-w-sm text-balance text-sm sm:text-base">
             I like to develop full-stack, drink instant coffee and get coding
             advice from my cat.
           </p>
