@@ -1,5 +1,6 @@
 import Experience from "@/components/Experience";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/next";
 import LinkWithIcon from "@/components/LinkWithIcon";
 import Posts from "@/components/Posts";
 import Projects from "@/components/Projects";
@@ -56,6 +57,7 @@ export default async function Home() {
             </Link>
             <Socials />
             <SpeedInsights/>
+            <Analytics/>
           </section>
         </div>
       </section>
