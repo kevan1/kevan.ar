@@ -83,7 +83,7 @@ A modern, minimalist developer portfolio website built with Next.js, featuring a
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check [issues page](your-repo-url/issues).
+Contributions, issues, and feature requests are welcome! Feel free to check [issues page](https://github.com/kevan1/kevan.ar/issues).
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/amazing-feature`)
@@ -97,7 +97,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📬 Contact
 
-- Visit my portfolio's [Contact page](/contact)
+- Visit my portfolio's [Contact page](htttps://kevan.ar/contact)
 - Connect through my social links on the portfolio
 
 ## 🙏 Acknowledgments
