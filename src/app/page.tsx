@@ -45,7 +45,7 @@ export default async function Home() {
             advice from my cat.
           </p>
           <div className="mt-4 flex items-end gap-1">
-            <p className="font-semibold">Ask the chatbot anything about me</p>
+            <p className="font-semibold">Ask MY chatbot vertion anything about me</p>
             <ArrowDownRight className="size-5 animate-bounce" />
           </div>
           <section className="mt-8 flex items-center gap-8">
