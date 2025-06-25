@@ -11,7 +11,7 @@ export default function ContactPage() {
       
       <ContactForm />
 
-      <h1 className="mt-2 text-lg font-medium text-gray-500">Book a Meeting</h1>
+      <h1 className="mt-2 text-lg text-center font-medium text-white"> or Book a Meeting</h1>
       <CalEmbed  />
     </article>
 
