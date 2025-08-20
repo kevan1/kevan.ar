@@ -41,7 +41,7 @@ export default async function Home() {
             yo DevOps engineer from Argentina 🇦🇷
           </p>
           <p className="mt-4 max-w-sm text-balance text-sm sm:text-base">
-            I like to develop full-stack, drink instant coffee and get coding
+            I like to DevOps, drink instant coffee and get coding
             advice from my cat.
           </p>
           <div className="mt-4 flex items-end gap-1">
