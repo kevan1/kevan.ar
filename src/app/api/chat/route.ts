@@ -28,12 +28,11 @@ export async function POST(req: Request) {
     });
 
     const chatModel = new ChatOpenAI({
-      model: "gpt-3.5-turbo-0125",
+      model: "o4-mini-2025-04-16",
       streaming: true,
       callbacks: [handlers],
       verbose: true, // logs to console
       cache,
-      temperature: 0,
     });
 
     const rephraseModel = new ChatOpenAI({

@@ -1,5 +1,25 @@
 {
   "projects": [
+        {
+      "name": "Blockenfy - 2025 Midnight Hackathon",
+      "description": "A privacy-preserving KYC dApp that verifies user eligibility without revealing personal data onchain.",
+      "image": "/midnight.jpeg",
+      "tags": [
+        "Python",
+        "FastAPI",
+        "Docker",
+        "Fly.io",
+        "Selenium",
+        "Telegram Bot API"
+      ],
+      "links": [
+        {
+          "name": "Source",
+          "href": "https://github.com/kevan1/kyc-midnight-hackathon",
+          "icon": "github"
+        }
+      ]
+    },
     {
       "name": "MaskBid - 2024 NMKR's Berlin Hackathon",
       "description": "This project was the winner of the Transparency category of 2024 NMKR's Berlin Hackathon. It consists of a commit-reveal system to make tender offers.",
