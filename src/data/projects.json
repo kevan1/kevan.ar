@@ -5,12 +5,9 @@
       "description": "A privacy-preserving KYC dApp that verifies user eligibility without revealing personal data onchain.",
       "image": "/midnight.jpeg",
       "tags": [
-        "Python",
-        "FastAPI",
-        "Docker",
-        "Fly.io",
-        "Selenium",
-        "Telegram Bot API"
+        "Compass",
+        "ZK",
+        "Lace"
       ],
       "links": [
         {

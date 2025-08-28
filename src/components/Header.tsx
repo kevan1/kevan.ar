@@ -23,22 +23,25 @@ const navLinks = [
 
 export default function Header() {
   return (
-    <header className="sticky top-0 z-50 bg-background/75 backdrop-blur-sm">
-      <div className="mx-auto max-w-3xl px-8 py-6">
-        <nav className="flex items-center justify-between">
-          <ul className="flex gap-4 sm:gap-8">
-            {navLinks.map((nav, id) => (
-              <li key={id} className="link">
-                <Link href={nav.href}>{nav.name}</Link>
-              </li>
-            ))}
-          </ul>
-          <div className="flex gap-2 sm:gap-4">
-            <ChatToggle />
-            <ThemeToggle />
+    <>
+      <header className="sticky standalone:fixed top-0 z-50 bg-background/75 backdrop-blur-md standalone:pt-16">
+        <div className="mx-auto max-w-3xl px-8 py-6">
+          <nav className="flex items-center justify-between">
+            <ul className="flex gap-4 sm:gap-8">
+                {navLinks.map((nav, id) => (
+                <li key={id} className="link">
+                    <Link href={nav.href}>{nav.name}</Link>
+                  </li>
+                ))}
+              </ul>
+            <div className="flex gap-2 sm:gap-4">
+                <ChatToggle />
+                <ThemeToggle />
+              </div>
+            </nav>
           </div>
-        </nav>
-      </div>
-    </header>
+        </header>
+      <div className="h-0 standalone:h-[76px]" />
+    </>
   );
 }
