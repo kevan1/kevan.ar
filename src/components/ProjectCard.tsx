@@ -30,6 +30,7 @@ export function ProjectCard({ project }: Props) {
               width={500}
               height={300}
               className="h-40 w-full object-cover object-top"
+              unoptimized
             />
           </Link>
         )}
