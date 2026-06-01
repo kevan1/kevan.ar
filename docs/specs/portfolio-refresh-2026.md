@@ -198,8 +198,9 @@ Projects are ranked by:
    career, README, metadata, contact email, privacy copy, and chatbot prompt were
    updated.
 5. Replace or verify `public/resume.pdf`. Not done in this pass.
-6. Regenerate chatbot data with `pnpm run gen`. Blocked locally until real Astra
-   DB and OpenAI credentials are available.
+6. Regenerate chatbot data with `pnpm run gen`. This is intentionally separate
+   from `pnpm run build` because Vercel production builds should not depend on
+   connecting to Astra DB.
 7. Run verification:
    - `pnpm install` if dependencies are missing
    - `pnpm run lint`
@@ -211,10 +212,8 @@ Projects are ranked by:
 - `pnpm install --frozen-lockfile`: passed.
 - `pnpm exec prettier --write ...`: passed for touched source/docs files.
 - `pnpm run lint`: passed with no warnings.
-- `pnpm run build`: blocked at `npm run gen` because local Astra DB environment
-  variables were not set.
-- `ASTRA_DB_API_ENDPOINT=http://localhost ASTRA_DB_APPLICATION_TOKEN=dummy
-ASTRA_DB_COLLECTION=embeddings pnpm exec next build`: passed.
+- `pnpm run build`: passed after separating embedding generation from the
+  production build.
 - Local server smoke at `http://127.0.0.1:3000`: `/`, `/projects`, `/contact`,
   and new Cachin image assets returned 200.
 - In-app browser visual verification was attempted, but the configured browser

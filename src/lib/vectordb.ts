@@ -2,15 +2,21 @@ import { DataAPIClient } from "@datastax/astra-db-ts";
 import { AstraDBVectorStore } from "@langchain/community/vectorstores/astradb";
 import { OpenAIEmbeddings } from "@langchain/openai";
 
-const endpoint = process.env.ASTRA_DB_API_ENDPOINT || "";
-const token = process.env.ASTRA_DB_APPLICATION_TOKEN || "";
-const collection = process.env.ASTRA_DB_COLLECTION || "";
+function getAstraConfig() {
+  const endpoint = process.env.ASTRA_DB_API_ENDPOINT || "";
+  const token = process.env.ASTRA_DB_APPLICATION_TOKEN || "";
+  const collection = process.env.ASTRA_DB_COLLECTION || "";
 
-if (!endpoint || !token || !collection) {
-  throw new Error("Please set environmental variables for Astra DB!");
+  if (!endpoint || !token || !collection) {
+    throw new Error("Please set environmental variables for Astra DB!");
+  }
+
+  return { endpoint, token, collection };
 }
 
 export async function getVectorStore() {
+  const { endpoint, token, collection } = getAstraConfig();
+
   return AstraDBVectorStore.fromExistingIndex(
     new OpenAIEmbeddings({ model: "text-embedding-3-small" }),
     {
@@ -25,6 +31,7 @@ export async function getVectorStore() {
 }
 
 export async function getEmbeddingsCollection() {
+  const { endpoint, token, collection } = getAstraConfig();
   const client = new DataAPIClient(token);
   const db = client.db(endpoint);
 

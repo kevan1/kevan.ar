@@ -75,6 +75,12 @@ Build:
 pnpm run build
 ```
 
+Build after refreshing chatbot embeddings:
+
+```bash
+pnpm run build:with-gen
+```
+
 ## Content
 
 - Project data: `src/data/projects.json`
