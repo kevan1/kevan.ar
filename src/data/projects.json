@@ -1,89 +1,192 @@
 {
   "projects": [
-        {
-      "name": "Blockenfy - 2025 Midnight Hackathon",
-      "description": "A privacy-preserving KYC dApp that verifies user eligibility without revealing personal data onchain.",
-      "image": "/midnight.jpeg",
+    {
+      "name": "Cachin",
+      "description": "LATAM-first payments app for people who fund globally and need to pay locally. Cachin lets users scan supported local QRs, review FX and fees before confirming, and move through checkout like locals. Private beta starts with an Argentina MVP.",
+      "href": "https://cachin.app",
+      "image": "/cachin-hero.png",
       "tags": [
-        "Compass",
-        "ZK",
-        "Lace"
+        "Founder & CTO",
+        "Expo",
+        "React Native",
+        "Solana",
+        "USDC",
+        "Payments",
+        "Privy",
+        "Sumsub",
+        "Crisp",
+        "Vercel"
+      ],
+      "links": [
+        {
+          "name": "Website",
+          "href": "https://cachin.app",
+          "icon": "globe"
+        }
+      ]
+    },
+    {
+      "name": "CachinPOS",
+      "description": "Private merchant-side POS companion for Cachin. It lets onboarded merchants enter an amount, generate a payment QR, and receive direct confirmation when the Cachin app scans and pays.",
+      "href": "https://cachin.app",
+      "image": "/cachin-card.png",
+      "tags": [
+        "Private Repo",
+        "Expo",
+        "React Native",
+        "Solana Pay",
+        "USDC",
+        "Merchant Tools",
+        "Android"
+      ],
+      "links": [
+        {
+          "name": "Cachin",
+          "href": "https://cachin.app",
+          "icon": "globe"
+        }
+      ]
+    },
+    {
+      "name": "Yara Meta WhatsApp Agent",
+      "description": "TypeScript backend for a Meta WhatsApp AI agent that recommends personalized Buenos Aires events from Postgres using Gemini, Drizzle, pg-boss, Vitest, and Supertest.",
+      "image": "/kevan-ar.png",
+      "tags": [
+        "TypeScript",
+        "Express",
+        "WhatsApp Cloud API",
+        "Gemini",
+        "PostgreSQL",
+        "Drizzle",
+        "pg-boss",
+        "Vitest"
       ],
       "links": [
         {
           "name": "Source",
+          "href": "https://github.com/kevan1/yara-bot",
+          "icon": "github"
+        }
+      ]
+    },
+    {
+      "name": "MaskBid - 2024 NMKR Berlin Hackathon",
+      "description": "Winner of the Transparency category at NMKR's 2024 Berlin Hackathon. MaskBid is a Cardano commit-reveal tender system where companies post RFPs, contractors commit hidden bids, and bids are revealed after the deadline.",
+      "href": "https://private-tender.vercel.app",
+      "image": "/cardanhkt.jpg",
+      "tags": [
+        "Cardano",
+        "Aiken",
+        "Next.js",
+        "TypeScript",
+        "Maestro",
+        "Hackathon Winner"
+      ],
+      "links": [
+        {
+          "name": "Website",
+          "href": "https://private-tender.vercel.app",
+          "icon": "globe"
+        },
+        {
+          "name": "Source",
+          "href": "https://github.com/kevan1/maskbid",
+          "icon": "github"
+        }
+      ]
+    },
+    {
+      "name": "Midnight KYC / Blockenfy",
+      "description": "Privacy-preserving KYC and attestation platform on Midnight Network. It uses zero-knowledge proofs and on-chain commitments so users can prove eligibility without exposing sensitive personal data.",
+      "image": "/midnight.jpeg",
+      "tags": [
+        "Midnight",
+        "Zero Knowledge",
+        "TypeScript",
+        "Next.js",
+        "Compact",
+        "Wallet SDK",
+        "Compliance"
+      ],
+      "links": [
+        {
+          "name": "Source",
+          "href": "https://github.com/kevan1/kyc_midnight",
+          "icon": "github"
+        },
+        {
+          "name": "Hackathon",
           "href": "https://github.com/kevan1/kyc-midnight-hackathon",
           "icon": "github"
         }
       ]
     },
     {
-      "name": "MaskBid - 2024 NMKR's Berlin Hackathon",
-      "description": "This project was the winner of the Transparency category of 2024 NMKR's Berlin Hackathon. It consists of a commit-reveal system to make tender offers.",
-      "image": "/cardanhkt.jpg",
+      "name": "Kiwipay / Monad Payment Prototype",
+      "description": "Private Expo prototype exploring passkey authentication, QR payments, USDC settlement through p2p.me, and cashback mechanics on Monad testnet. Kept private because it overlaps with Cachin payment experiments.",
+      "image": "/cachin-scan.png",
       "tags": [
-        "Python",
-        "FastAPI",
-        "Docker",
-        "Fly.io",
-        "Selenium",
-        "Telegram Bot API"
+        "Private Repo",
+        "Expo",
+        "Privy",
+        "Monad",
+        "USDC",
+        "QR Payments",
+        "p2p.me"
+      ],
+      "links": []
+    },
+    {
+      "name": "Mimic Hackathon Automation",
+      "description": "Demo automation for monitoring new token listings and creating purchase intents with configurable spend, slippage, recipient, fee limits, duplicate prevention, and operational risk notes.",
+      "tags": [
+        "TypeScript",
+        "Mimic Protocol",
+        "DeFi",
+        "Automation",
+        "Risk Management"
       ],
       "links": [
         {
           "name": "Source",
-          "href": "https://github.com/kevan1/SRTK-Hackathon",
+          "href": "https://github.com/kevan1/mimic-hackathon",
           "icon": "github"
         }
       ]
     },
     {
-      "name": "NFTVue",
-      "description": "Non-Fungible Tokens (NFTs) Gallery Viewer website that allows users to connect their crypto wallets to view and verify their tokens",
-      "href": "https://github.com/kevan1/SRTK-Hackathon",
-      "image": "/nftvue.png",
+      "name": "kevan.ar",
+      "description": "This portfolio: a Next.js site with MDX posts, contact flow, dark mode, analytics, and an AI chatbot backed by embeddings over the site's content.",
+      "href": "https://kevan.ar",
+      "image": "/kevan-ar.png",
       "tags": [
-        "NextJS",
-        "TailwindCSS",
-        "MetaMask",
-        "WalletConnect",
-        "Web3",
-        "NFTScan",
-        "HashKey DID"
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "LangChain",
+        "OpenAI",
+        "Astra DB",
+        "Upstash",
+        "Vercel"
       ],
       "links": [
         {
           "name": "Website",
-          "href": "https://nftvue.vercel.app",
-          "icon": "globe"
-        }
-      ]
-    },
-    {
-      "name": "Portfolio 2023 (Outdated)",
-      "description": "Simple markdown portfolio made with Astro 🚀",
-      "href": "https://tedawf-dot-com.netlify.app",
-      "image": "/",
-      "tags": ["Astro", "TailwindCSS", "Netlify", "SEO"],
-      "links": [
-        {
-          "name": "Website",
-          "href": "https://tedawf-dot-com.netlify.app",
+          "href": "https://kevan.ar",
           "icon": "globe"
         },
         {
           "name": "Source",
-          "href": "https://github.com/tedawf/portfolio-2023",
+          "href": "https://github.com/kevan1/kevan.ar",
           "icon": "github"
         }
       ]
     },
     {
-      "name": "Rapid Ride Fight (Final Year)",
-      "description": "3D capture-the-flag, multiplayer boat fighting, with smart AI and water graphics",
+      "name": "Rapid Ride Fight",
+      "description": "Final-year 3D multiplayer boat fighting game with capture-the-flag mechanics, AI opponents, water rendering, and a custom C/C++ OpenGL engine.",
       "href": "https://games.digipen.edu/games/rapid-ride-fight",
-      "image": "/rrf.png",
-      "tags": ["C/C++", "OpenGL", "Custom Game Engine", "3D"],
+      "tags": ["C", "C++", "OpenGL", "Custom Engine", "3D", "Multiplayer"],
       "links": [
         {
           "name": "Gameplay",
@@ -98,11 +201,10 @@
       ]
     },
     {
-      "name": "Glowing Under (2nd Year)",
-      "description": "2D platformer with a focus on puzzle-solving, no-death exploration and storytelling",
+      "name": "Glowing Under",
+      "description": "Second-year 2D platformer focused on puzzle solving, no-death exploration, storytelling, and custom C/C++ OpenGL engine work.",
       "href": "https://games.digipen.edu/games/glowing-under",
-      "image": "/gu.png",
-      "tags": ["C/C++", "OpenGL", "Custom Game Engine", "2D"],
+      "tags": ["C", "C++", "OpenGL", "Custom Engine", "2D"],
       "links": [
         {
           "name": "Trailer",

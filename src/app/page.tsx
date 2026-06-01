@@ -7,17 +7,12 @@ import Projects from "@/components/Projects";
 import Socials from "@/components/Socials";
 import { Button } from "@/components/ui/Button";
 import { getPosts } from "@/lib/posts";
-import {
-  ArrowDownRight,
-  ArrowRightIcon,
-  FileDown
-} from "lucide-react";
+import { ArrowDownRight, ArrowRightIcon, FileDown } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import path from "path";
 
 const blogDirectory = path.join(process.cwd(), "content");
-const KEVIN_BIRTH_YEAR = 2000;
 const LIMIT = 2; // max show 2
 
 export default async function Home() {
@@ -34,18 +29,28 @@ export default async function Home() {
           priority
         />
         <div className="flex max-w-[320px] flex-col sm:max-w-full">
-          <h1 className="title text-balance text-4xl sm:text-5xl">Kevin Anrique</h1>
-          <p className="mt-2 whitespace-nowrap text-sm font-medium sm:text-base">
-            {/* Update my age */}
-            {new Date().getFullYear() - KEVIN_BIRTH_YEAR}
-            yo DevOps engineer from Argentina 🇦🇷
+          <h1 className="title text-balance text-4xl sm:text-5xl">
+            Kevin Anrique
+          </h1>
+          <p className="mt-2 text-sm font-medium sm:text-base">
+            Founder & CTO of{" "}
+            <Link
+              className="link font-semibold"
+              href="https://cachin.app"
+              target="_blank"
+            >
+              Cachin
+            </Link>
+            , building crypto payment rails from Argentina.
           </p>
           <p className="mt-4 max-w-sm text-balance text-sm sm:text-base">
-            I like to DevOps, drink instant coffee and get coding
-            advice from my cat.
+            I build crypto payment rails, mobile apps, backend systems, and the
+            operational glue that keeps products moving.
           </p>
           <div className="mt-4 flex items-end gap-1">
-            <p className="font-semibold">Ask MY chatbot version anything about me</p>
+            <p className="font-semibold">
+              Ask my chatbot anything about my work
+            </p>
             <ArrowDownRight className="size-5 animate-bounce" />
           </div>
           <section className="mt-8 flex items-center gap-8">
@@ -56,8 +61,8 @@ export default async function Home() {
               </Button>
             </Link>
             <Socials />
-            <SpeedInsights/>
-            <Analytics/>
+            <SpeedInsights />
+            <Analytics />
           </section>
         </div>
       </section>

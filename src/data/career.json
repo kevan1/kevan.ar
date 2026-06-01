@@ -1,21 +1,39 @@
 {
   "career": [
     {
-      "name": "Relocation - Freelance",
-      "href": "https://www.google.com",
-      "title": "Freelance Devops",
-      "logo": "/ger.png",
-      "start": "Jul 2023",
+      "name": "Cachin",
+      "href": "https://cachin.app",
+      "title": "Founder & CTO",
+      "logo": "/cachin-pos.png",
+      "start": "Nov 2025",
       "description": [
-        "Designed and operated high-availability systems for blockchain and Web3 clients",
-        "Implemented CI/CD pipelines and automated infrastructure using Ansible and custom scripts",
-        "Optimized Linux server performance and managed network configurations for reliability",
-        "Provided remote support and troubleshooting for distributed teams"
+        "Built a LATAM-first payments app for users who fund globally and pay locally through supported QR rails",
+        "Led product, mobile engineering, backend API work, provider integrations, compliance flows, support paths, and public positioning",
+        "Developed CachinPOS as a private merchant-side companion for QR generation and direct payment confirmation"
       ],
       "links": [
         {
-          "name": "NFTVue",
-          "href": "https://nftvue.vercel.app",
+          "name": "Website",
+          "href": "https://cachin.app",
+          "icon": "globe"
+        }
+      ]
+    },
+    {
+      "name": "Independent",
+      "href": "https://kevan.ar",
+      "title": "DevOps & Product Engineer",
+      "logo": "/ger.png",
+      "start": "Jul 2023",
+      "description": [
+        "Designed and operated infrastructure for blockchain, payments, and AI projects",
+        "Implemented CI/CD pipelines, deployment automation, monitoring, and Linux server operations",
+        "Built prototypes and production-facing systems across Expo, Next.js, TypeScript, Solana, PostgreSQL, and provider APIs"
+      ],
+      "links": [
+        {
+          "name": "Portfolio",
+          "href": "https://kevan.ar",
           "icon": "globe"
         }
       ]
@@ -23,39 +41,39 @@
     {
       "name": "IRSA",
       "href": "https://www.irsa.com.ar",
-      "title": "IT Support 3rd",
+      "title": "IT Support 3rd Level",
       "logo": "/irsa.jpg",
       "start": "Aug 2021",
       "end": "Jul 2023",
       "description": [
-        "Delivered end-to-end IT support across hardware, software, and network layers, improving issue resolution time by proactively identifying and addressing root causes",
-        "Monitored IT infrastructure and services to generate actionable incident reports, leading to measurable improvements in uptime and response SLAs",
-        "Drove efficiency by identifying and implementing process improvements across Active Directory, SQL databases, and application deployments"
+        "Delivered end-to-end IT support across hardware, software, and network layers",
+        "Monitored infrastructure and services, produced incident reports, and helped improve uptime and response SLAs",
+        "Improved internal processes across Active Directory, SQL databases, and application deployments"
       ]
     },
     {
       "name": "Cresud",
       "href": "https://www.cresud.com.ar",
-      "title": "Software Developer (Intern)",
+      "title": "Software Developer Intern",
       "logo": "/cresud.jpg",
       "start": "May 2022",
       "end": "Dec 2022",
       "description": [
-        "Worked on the backend for the digital exchange and asset custody application using Spring Boot and Java",
-        "Built an admin dashboard web application for a DBS Metaverse event using Spring Security and Angular"
+        "Worked on backend features for a digital exchange and asset custody application using Spring Boot and Java",
+        "Built an admin dashboard for a DBS Metaverse event using Spring Security and Angular"
       ]
     },
     {
       "name": "Ministry of Buenos Aires City",
       "href": "https://buenosaires.gob.ar",
-      "title": "DevOps Treenie",
+      "title": "DevOps Trainee",
       "logo": "/bsas.jpg",
       "start": "May 2019",
       "end": "Aug 2019",
       "description": [
-        "Automated development workflows using Docker, Git, and virtual machines to streamline builds and deployments",
-        "Implemented production-grade APIs and end-to-end CI/CD pipelines across AWS and GCP environments",
-        "Deployed and maintained observability stacks (ELK: Elasticsearch, Logstash, Kibana) to ensure system reliability and performance"
+        "Automated development workflows using Docker, Git, and virtual machines",
+        "Implemented APIs and CI/CD pipelines across AWS and GCP environments",
+        "Deployed and maintained observability stacks with Elasticsearch, Logstash, and Kibana"
       ]
     }
   ]

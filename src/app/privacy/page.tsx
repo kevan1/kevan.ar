@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const lastUpdated = "Sep 2024";
+const lastUpdated = "Jun 2026";
 
 export default function page() {
   return (
@@ -26,14 +26,14 @@ export default function page() {
         <h3>1. Chatbot Conversations</h3>
         <p>
           If you send a message through the chatbot, it might be stored for
-          caching and training purposes. So please avoid sharing any
+          caching and basic service quality purposes. Please avoid sharing
           confidential info in the chat.
         </p>
         <h3>2. Contact Info</h3>
         <p>
           If you reach out via email or the contact form, the info you provide
           is entirely up to you. I&apos;ll only use it to reply and have a
-          conversation with you—no funny business.
+          conversation with you. No funny business.
         </p>
         <h2 className="title">How I Use the Info</h2>
         <p>Here&apos;s what I might do with any information I collect:</p>
@@ -51,23 +51,22 @@ export default function page() {
         <h2 className="title">Security (The Internet Isn&apos;t Perfect)</h2>
         <p>
           I&apos;ll do my best to keep any info you share safe, but let&apos;s
-          be real—no system is foolproof. While I&apos;ll take reasonable steps
+          be real: no system is foolproof. While I&apos;ll take reasonable steps
           to protect your info, I can&apos;t promise 100% security.
         </p>
         <h2 className="title">Policy Updates (No Surprises)</h2>
         <p>
           This policy is current as of <b>{lastUpdated}</b>. If I make any
           changes, I&apos;ll update it here, so you&apos;re always in the loop.
-          Feel free to check back occasionally, but don&apos;t worry—I&apos;m
+          Feel free to check back occasionally, but don&apos;t worry. I&apos;m
           not making any big changes without letting you know.
         </p>
         <h2 className="title">Got Questions?</h2>
         <p>
           If you have any questions, concerns, or just want to say hi, drop me
-          an email at{" "}
-          <Link href="mailto:hello@tedawf.com">hello@tedawf.com</Link> or use
-          the <Link href="/contact">contact form</Link>. I&apos;d love to hear
-          from you!
+          an email at <Link href="mailto:hey@kevan.ar">hey@kevan.ar</Link> or
+          use the <Link href="/contact">contact form</Link>. I&apos;d love to
+          hear from you!
         </p>
       </div>
     </article>
