@@ -15,7 +15,8 @@ const calistoga = Calistoga({
 
 export const metadata: Metadata = {
   title: "Kevin Anrique",
-  description: "My personal site to showcase my developer work and opinions.",
+  description:
+    "Founder & CTO of Cachin. DevOps and product engineer building crypto payment rails, AI agents, and privacy-focused applications.",
 };
 
 export default function RootLayout({
@@ -43,7 +44,7 @@ export default function RootLayout({
       >
         <Providers>
           <Header />
-         <div className="mx-auto flex max-w-3xl flex-col px-8">
+          <div className="mx-auto flex max-w-3xl flex-col px-8">
             <main className="grow">{children}</main>
           </div>
           <Footer />

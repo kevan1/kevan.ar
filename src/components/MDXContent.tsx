@@ -1,25 +1,24 @@
-import { MDXRemote, MDXRemoteProps } from "next-mdx-remote/rsc";
-import { JSX } from "react";
+import ReactMarkdown, { Components } from "react-markdown";
 import { highlight } from "sugar-high";
-import Counter from "./Counter";
 
-function Code({ children, ...props }: any) {
-  let codeHTML = highlight(children);
+type MarkdownContentProps = {
+  source: string;
+};
+
+function Code({
+  children,
+  ...props
+}: React.ComponentPropsWithoutRef<"code">) {
+  const code = String(children ?? "");
+  const codeHTML = highlight(code);
+
   return <code dangerouslySetInnerHTML={{ __html: codeHTML }} {...props} />;
 }
 
-const components = {
+const components: Components = {
   code: Code,
-  Counter,
 };
 
-export default function MDXContent(
-  props: JSX.IntrinsicAttributes & MDXRemoteProps,
-) {
-  return (
-    <MDXRemote
-      {...props}
-      components={{ ...components, ...(props.components || {}) }}
-    />
-  );
+export default function MDXContent({ source }: MarkdownContentProps) {
+  return <ReactMarkdown components={components}>{source}</ReactMarkdown>;
 }

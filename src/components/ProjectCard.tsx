@@ -21,8 +21,8 @@ export function ProjectCard({ project }: Props) {
 
   return (
     <Card className="flex flex-col">
-      <CardHeader>
-        {image && (
+      {image && (
+        <CardHeader>
           <Link href={href || image}>
             <Image
               src={image}
@@ -33,8 +33,8 @@ export function ProjectCard({ project }: Props) {
               unoptimized
             />
           </Link>
-        )}
-      </CardHeader>
+        </CardHeader>
+      )}
       <CardContent className="flex flex-col gap-2">
         <CardTitle>{name}</CardTitle>
         <Markdown className="prose max-w-full text-pretty font-sans text-xs text-muted-foreground dark:prose-invert">

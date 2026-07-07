@@ -6,6 +6,9 @@ import { z } from "zod";
 import { ContactFormSchema } from "./schemas";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
+const contactFrom =
+  process.env.CONTACT_FROM_EMAIL ?? "Kevin Anrique <contact@kevan.ar>";
+const contactTo = process.env.CONTACT_TO_EMAIL ?? "hey@kevan.ar";
 
 type ContactFormInputs = z.infer<typeof ContactFormSchema>;
 
@@ -19,8 +22,8 @@ export async function sendEmail(data: ContactFormInputs) {
   try {
     const { name, email, message } = result.data;
     const { data, error } = await resend.emails.send({
-      from: `tedawf.com <contact@tedawf.com>`,
-      to: "hello@tedawf.com",
+      from: contactFrom,
+      to: contactTo,
       replyTo: [email],
       cc: [email],
       subject: `New message from ${name}!`,
