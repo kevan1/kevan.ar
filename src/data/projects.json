@@ -96,7 +96,7 @@
       ]
     },
     {
-      "name": "Midnight KYC / Blockenfy",
+      "name": "Midnight ZK-KYC",
       "description": "Privacy-preserving KYC and attestation platform on Midnight Network. It uses zero-knowledge proofs and on-chain commitments so users can prove eligibility without exposing sensitive personal data.",
       "image": "/midnight.jpeg",
       "tags": [
@@ -111,7 +111,7 @@
       "links": [
         {
           "name": "Source",
-          "href": "https://github.com/kevan1/kyc_midnight",
+          "href": "https://github.com/kevan1/midnight-zk-kyc",
           "icon": "github"
         },
         {
