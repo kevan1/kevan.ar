@@ -97,12 +97,14 @@ Projects are ranked by:
      - https://github.com/kevan1/maskbid
      - https://private-tender.vercel.app
 
-5. **Midnight KYC / Blockenfy**
+5. **Midnight KYC**
 
    - Why: strong privacy and Web3 signal. It demonstrates KYC attestations,
      zero-knowledge proofs, Midnight Network, smart contracts, and wallet flows.
-   - Current action: consolidate the current Blockenfy card around the most
-     complete/current repo, then mention the hackathon context in the copy.
+   - Current action: consolidate the current Midnight KYC card around the most
+     complete/current repo, then mention the hackathon context in the copy
+     (1st place, Midnight Hackathon Buenos Aires, Aug 2025), crediting the
+     winning team as a whole.
    - Links:
      - https://github.com/kevan1/kyc_midnight
      - https://github.com/kevan1/kyc-midnight-hackathon
